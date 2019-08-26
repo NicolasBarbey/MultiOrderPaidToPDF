@@ -1,0 +1,14 @@
+<button type="button" class="btn btn-default btn-primary btn-sm decal" data-toggle="modal" data-target="#multi-order-tab" >
+    <span class="glyphicon glyphicon-cloud-download"></span>
+    Factures PDF
+    <span class="badge">
+        {$orderCount = 0}
+        {loop type="order" name="order-list" customer="*" status="2,3,4" limit="500"}
+                {$orderCount = $LOOP_TOTAL}
+        {/loop}
+        {$orderCount}
+    </span>
+</button>
+
+
+
