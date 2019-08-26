@@ -1,0 +1,11 @@
+{
+  "name": "thelia/multi-order-paid-to-pdf-module",
+  "license": "LGPL-3.0+",
+  "type": "thelia-module",
+  "require": {
+    "thelia/installer": "~1.1"
+  },
+  "extra": {
+    "installer-name": "MultiOrderPaidToPDF"
+  }
+}
