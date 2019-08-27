@@ -8,11 +8,11 @@
         <form name="invoicing.pdf.form" class="MultiOrderPaidToPdf\Form\InvoicingForm" />
     </forms>
 
-
-
-    <!--
-    <services>
-
-    </services>
-    -->
+    <hooks>
+        <hook id="multiorderpaidtopdf.hookmanager.hook" class="MultiOrderPaidToPdf\Hook\HookManager">
+            <tag name="hook.event_listener" event="main.head-css" type="back" method="onHeadCss" />
+            <tag name="hook.event_listener" event="orders.bottom" type="back" method="onOrdersBottom" />
+            <tag name="hook.event_listener" event="orders.table-header" type="back" method="onOrderTableHeader" />
+        </hook>
+    </hooks>
 </config>

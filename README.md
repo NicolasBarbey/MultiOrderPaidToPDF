@@ -23,20 +23,18 @@ composer thelia/multi-order-paid-to-pdf-module:~1.0
 
 # fr_FR
 
-# Module MultiOrderPaidToPDF
-
 Ce module ajoute un bouton dans la liste pour générer un pdf des commandes en statuts payer.
 
 ## Installation
 
-### Manually
+### Manuellement
 
-* Copy the module into ```<thelia_root>/local/modules/``` directory and be sure that the name of the module is MultiOrderPaidToPDF.
-* Activate it in your thelia administration panel
+* Copier le module dans le dossier ```<thelia_root>/local/modules/``` et fait bien attention que le nom du module soit MultiOrderPaidToPDF.
+* Activer le module dans votre espace d'administration
 
 ### Composer
 
-Add it in your main thelia composer.json file
+Ajouter dans le fichier composer.json de thelia
 
 ```
 composer thelia/multi-order-paid-to-pdf-module:~1.0
