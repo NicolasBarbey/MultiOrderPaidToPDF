@@ -16,7 +16,7 @@ This module adds a button in the order list which generate a pdf for orders with
 Add it in your main thelia composer.json file
 
 ```
-composer thelia/multi-order-paid-to-pdf-module:~1.0
+composer require thelia/multi-order-paid-to-pdf-module:~1.0
 ```
 
 
@@ -37,6 +37,6 @@ Ce module ajoute un bouton dans la liste pour générer un pdf des commandes en 
 Ajouter dans le fichier composer.json de thelia
 
 ```
-composer thelia/multi-order-paid-to-pdf-module:~1.0
+composer require thelia/multi-order-paid-to-pdf-module:~1.0
 ```
 
